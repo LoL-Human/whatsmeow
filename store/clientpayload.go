@@ -123,13 +123,13 @@ var BaseClientPayload = &waProto.ClientPayload{
 }
 
 var DeviceProps = &waProto.DeviceProps{
-	Os: proto.String("whatsmeow"),
+	Os: proto.String("Mac OS"),
 	Version: &waProto.DeviceProps_AppVersion{
 		Primary:   proto.Uint32(0),
 		Secondary: proto.Uint32(1),
 		Tertiary:  proto.Uint32(0),
 	},
-	PlatformType:    waProto.DeviceProps_UNKNOWN.Enum(),
+	PlatformType:    waProto.DeviceProps_SAFARI.Enum(),
 	RequireFullSync: proto.Bool(false),
 }
 
