@@ -11,9 +11,9 @@ import (
 	"math/rand"
 	"time"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	waBinary "github.com/LoL-Human/whatsmeow/binary"
+	"github.com/LoL-Human/whatsmeow/types"
+	"github.com/LoL-Human/whatsmeow/types/events"
 )
 
 var (

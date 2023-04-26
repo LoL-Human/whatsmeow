@@ -13,7 +13,7 @@ package lthash
 import (
 	"encoding/binary"
 
-	"go.mau.fi/whatsmeow/util/hkdfutil"
+	"github.com/LoL-Human/whatsmeow/util/hkdfutil"
 )
 
 type LTHash struct {

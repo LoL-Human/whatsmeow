@@ -13,12 +13,12 @@ import (
 	"fmt"
 	mathRand "math/rand"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/store/sqlstore/query"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/util/keys"
-	waLog "go.mau.fi/whatsmeow/util/log"
+	waProto "github.com/LoL-Human/whatsmeow/binary/proto"
+	"github.com/LoL-Human/whatsmeow/store"
+	"github.com/LoL-Human/whatsmeow/store/sqlstore/query"
+	"github.com/LoL-Human/whatsmeow/types"
+	"github.com/LoL-Human/whatsmeow/util/keys"
+	waLog "github.com/LoL-Human/whatsmeow/util/log"
 )
 
 // Container is a wrapper for a SQL database that can contain multiple whatsmeow sessions.

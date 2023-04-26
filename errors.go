@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
+	waBinary "github.com/LoL-Human/whatsmeow/binary"
 )
 
 // Miscellaneous errors
