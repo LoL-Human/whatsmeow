@@ -174,7 +174,7 @@ func (a *MySql) CreateTableSessions() string {
 	return `CREATE TABLE IF NOT EXISTS whatsmeow_sessions (
         our_jid  VARCHAR(50),
         their_id VARCHAR(50),
-        session  BLOB,
+        session  LONGTEXT,
 
         PRIMARY KEY (our_jid, their_id),
         FOREIGN KEY (our_jid) REFERENCES whatsmeow_device(jid) ON DELETE CASCADE ON UPDATE CASCADE
